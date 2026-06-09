@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "MiastaWeatherApi.Controllers.CitiesController",
+    "Method": "GetAllCities",
+    "RelativePath": "cities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiastaWeatherApi.Controllers.CitiesController",
+    "Method": "GetCity",
+    "RelativePath": "cities/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiastaWeatherApi.Controllers.CitiesController",
+    "Method": "UpdateCity",
+    "RelativePath": "cities/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedCity",
+        "Type": "MiastaWeatherApi.Nowy_folder.City",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiastaWeatherApi.Controllers.CitiesController",
+    "Method": "DeleteCity",
+    "RelativePath": "cities/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiastaWeatherApi.Controllers.WeatherController",
+    "Method": "GetWeather",
+    "RelativePath": "Weather/{city}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
